@@ -71,6 +71,10 @@ body {
   color: var(--accent-color);
 }
 
+.mkey .current {
+  color: var(--accent-color);
+}
+
 /* Hero-sect */
 .hero {
   background-color: #2f303a;
@@ -89,3 +93,38 @@ body {
   font-size: 16px;
   font-weight: 700;
 }
+
+/* Peculiarities-sect */
+
+.pcaption {
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+.detail > p {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Ourwork-sect */
+
+.hcaption {
+  color: var(--primary-text-color);
+  font-size: 36px;
+}
+
+/* Ourteam-sect */
+
+.fsname {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.post {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+}
+
+/* Footer */
