@@ -3,12 +3,14 @@
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --footer-adress-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   color: var(--primary-text-color);
   background-color: #e5e5e5;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -20,25 +22,24 @@ body {
 }
 
 /* Logo */
-.web {
+
+.logo > span {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  color: var(--accent-color);
   font-weight: 700;
+  line-height: 1.2;
+}
+
+.web {
+  color: var(--accent-color);
 }
 
 .studio {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
   color: var(--primary-text-color);
-  font-weight: 700;
 }
 
 .fwhite {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
   color: var(--primary-white-color);
-  font-weight: 700;
 }
 
 /* Navbar */
@@ -46,6 +47,7 @@ body {
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.14;
 }
 
 .nkey > a:hover,
@@ -57,6 +59,7 @@ body {
   color: var(--secondary-text-color);
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.14;
 }
 
 .contacts a:hover,
@@ -75,8 +78,9 @@ body {
 
 .hero-title {
   color: var(--primary-white-color);
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
   text-transform: uppercase;
 }
 
@@ -85,6 +89,7 @@ body {
   color: var(--primary-white-color);
   font-size: 16px;
   font-weight: 700;
+  line-height: 1.87;
 }
 
 /* Peculiarities-sect */
@@ -92,12 +97,14 @@ body {
 .pcaption {
   color: var(--primary-text-color);
   font-size: 14px;
+  line-height: 1.14;
 }
 
 .detail > p {
   color: var(--secondary-text-color);
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.71;
 }
 
 /* Ourwork-sect */
@@ -105,6 +112,7 @@ body {
 .hcaption {
   color: var(--primary-text-color);
   font-size: 36px;
+  line-height: 1.16;
 }
 
 /* Ourteam-sect */
@@ -113,11 +121,13 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.18;
 }
 
 .post {
   color: var(--secondary-text-color);
   font-weight: 400;
+  line-height: 1.18;
 }
 
 /* Footer */
@@ -126,11 +136,34 @@ body {
 }
 
 .adress a {
-  color: var(--secondary-text-color);
-  font-style: normal;
+  color: var(--footer-adress-color);
   font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
 }
 
 .adress.office > a {
   color: var(--primary-white-color);
+}
+
+/* Portfolio */
+
+/* buttons */
+
+.fkey button {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* card */
+.card > h2 {
+  color: var(--primary-text-color);
+  font-size: 18px;
+  line-height: 2;
+}
+
+.card > p {
+  color: var(--secondary-text-color);
+  line-height: 1.87;
 }
