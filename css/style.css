@@ -89,6 +89,7 @@ body {
 .hero-button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -102,6 +103,7 @@ body {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .detail > p {
@@ -144,21 +146,38 @@ body {
   line-height: 1.71;
 }
 
+.adress a:hover,
+.adress a:focus {
+  color: var(--accent-color);
+}
+
 .adress.office > a {
   color: var(--primary-white-color);
+}
+
+.adress.office > a:hover,
+.adress.office > a:focus {
+  color: var(--accent-color);
 }
 
 /* Portfolio */
 
 /* buttons */
 
-.fkey button {
+.fkey > button {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
   cursor: pointer;
+}
+
+.fkey > button:hover,
+.fkey > button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* card */
